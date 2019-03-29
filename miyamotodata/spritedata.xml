@@ -5820,9 +5820,9 @@
 		<value nybble="5-6" title="Unknown Value 5-6" comment="Maybe location ID"/>
 		<value nybble="11" title="Unknown Value 11" comment="Maybe location ID"/>
 	</sprite>
-	<sprite id="612" name="Non-solid-when-you-have-P-Acorn Block" notes="You can pass through this block when you have the P-Acorn.">
-		<value nybble="11" title="Unknown Value 11" comment="Always 8"/>
-		<value nybble="12" title="Unknown Value 12"/>
+	<sprite id="612" name="Non-solid-when-you-have-P-Acorn Block" notes="You can pass through the bottom and left faces of this block when you have the P-Acorn. It has no collision on the other sides. If there is a value of three in the second field, the blocks will be cloned to its bottom face and it will have no collision on the bottom.">
+		<value nybble="11" title="Number of Solid Blocks to Clone" comment="Clones the block the selected number of times to the selected side."/>
+		<value nybble="12" title="Side to Clone to" comment="A value of three clones the block to the bottom and zero clones it to the right."/>
 	</sprite>
 	<sprite id="613" name="Golden Pipe (Left) [UNUSED]"/>
 	<sprite id="614" name="Golden Pipe (Right) [UNUSED]"/>
